@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I am a second year PhD candidate in the School of Computer Science, UCD, under the supervision of Dr. David Lillis. My PhD research focuses on NLP for emergency response. Currently, I am a big fan of AI2.
+
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Take it easy and simple, think and break. My interests include cooking, reading and fictional or non-fictional writing. More about me go to my [résumé](/files/cv.pdf).
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[wangcongcongcc@gmail.com](mailto:wangcongcongcc@gmail.com)
