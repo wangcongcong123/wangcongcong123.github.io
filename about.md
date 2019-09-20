@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am a second year PhD candidate in the [School of Computer Science](https://www.cs.ucd.ie/), [UCD](https://www.ucd.ie/), under the supervision of [Dr. David Lillis](https://lill.is/). My PhD research focuses on NLP for emergency response. Currently, I am a big fan of AI2.
+I am a PhD candidate in the [School of Computer Science](https://www.cs.ucd.ie/), [UCD](https://www.ucd.ie/), under the supervision of [Dr. David Lillis](https://lill.is/). My PhD research focuses on NLP for emergency response. Currently, I am a big fan of AI2.
 
 
 ### More Information
