@@ -3,5 +3,5 @@ This website is used for creating my personal blog posts on pogramming stuff, [A
 
 ## Previous selected blog posts
 #### Year: 2019
-  - [https://wangcongcong123.github.io./Run-AllenNLP-on-Windows/](https://wangcongcong123.github.io./Run-AllenNLP-on-Windows/) 
+  - [Run AllenNLP on Windows](https://wangcongcong123.github.io./Run-AllenNLP-on-Windows/) 
 

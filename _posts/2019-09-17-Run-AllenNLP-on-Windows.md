@@ -11,7 +11,7 @@ As I said, currently, I am a big fun of [AI2](https://allenai.org/index.html). T
 
 If you aspire to be a NLP researcher, this wonderful library is highly recommended as starting point in terms of programing NLP. Anyway, it is a good tool for running reproducible experiments which I think is pretty much important for not only NLP reseachers but researchers in other areas. More about its contribution to reproducibility, [the slides by Joel Grus](https://docs.google.com/presentation/d/1ivK8AKgz8Hx-ZYzPC9gJyQK6tzuhR3UuhCEajFGJDlA/edit) are good references. To start AllenNLP, there are a number of good tutorials available on [its git repository page](https://github.com/allenai/allennlp).
 
-Although I have played some time with AllenNLP on Mac OS and Linux, unfortunately, the library is still unavailable for Windows. Especially, it is an important need for me to conduct experiments with AllenNLP directly on my GPU-supported Windows. This blog provides a way of making a detour to enable AllenNLP run on Windows. Instructions are below.
+Although I have played some time with AllenNLP on Mac OS and Linux, unfortunately, the library is still unavailable for Windows. Especially, it is an important need for me to conduct experiments with AllenNLPdirectly on my GPU-supported Windows. This blog provides a way of making a detour to enable AllenNLP run on Windows. Instructions are below.
 
 Please go to [the code repository](https://github.com/wangcongcong123/AllenNLPonWins), where readme file contains all details.
 
