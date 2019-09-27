@@ -3,5 +3,5 @@ This website is used for creating my personal blog posts on pogramming stuff, [A
 
 ## Previous selected blog posts
 #### Year: 2019
-  - [The Illustrated BCN+ELMo and its Application in Priority Classification](https://wangcongcong123.github.io/The-Illustrated-BCN_ELMo/) 
+  - [https://wangcongcong123.github.io./Run-AllenNLP-on-Windows/](https://wangcongcong123.github.io./Run-AllenNLP-on-Windows/) 
 
