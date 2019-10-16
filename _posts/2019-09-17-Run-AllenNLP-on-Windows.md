@@ -15,5 +15,5 @@ Although I have played some time with AllenNLP on Mac OS and Linux, unfortunatel
 
 Please go to [the code repository](https://github.com/wangcongcong123/AllenNLPonWins), where readme file contains all details.
 
-If you have any doubts or any my mistakes you found in the post, send me an email via [wangcongcongcc@gmail.com](mailto:wangcongcongcc@gmail.com) or you are welcome to talk with me about any NLP relevant questions through [my Twitter account](https://twitter.com/WangcongcongCC).
+If you have any doubts or any my mistakes you found in the blog, send me an email via [wangcongcongcc@gmail.com](mailto:wangcongcongcc@gmail.com) or you are welcome to talk with me about any NLP relevant questions through [my Twitter account](https://twitter.com/WangcongcongCC).
 

@@ -117,6 +117,7 @@ This blog presents three commonly-practised deep methods for text classification
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">For all the progress made, it seems like almost all important questions in AI remain unanswered. Many have not even been properly asked yet.</p>&mdash; François Chollet (@fchollet) <a href="https://twitter.com/fchollet/status/1182690110195802112?ref_src=twsrc%5Etfw">March 2, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 
+
 <!-- Matt Gardner
 @nlpmattg
 ·
@@ -135,7 +136,7 @@ Future work is not about big idea instead big  -->
 
 <!-- Three methods are Bi-LSTM, BCN+ELMo and BERT. -->
 
-
+Souce code: [github repository](https://github.com/wangcongcong123/TextClassification)
 
 If you have any doubts or any my mistakes you found in the blog, send me an email via [wangcongcongcc@gmail.com](mailto:wangcongcongcc@gmail.com) or you are welcome to talk with me about any NLP relevant questions through [my Twitter account](https://twitter.com/WangcongcongCC).
 
