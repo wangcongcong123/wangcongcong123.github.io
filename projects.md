@@ -6,6 +6,9 @@ permalink: /projects/
 
 Projects to add
 
+
+
+
 <!-- ### More Information
 
 More Information on project goes here
