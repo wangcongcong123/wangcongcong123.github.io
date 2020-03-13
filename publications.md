@@ -4,10 +4,10 @@ title: Publications
 permalink: /publications/
 ---
 
-**Classification for Crisis-Related Tweets Leveraging
-Word Embeddings and Data Augmentation**. TREC, NIST.
-**Congcong Wang**, David Lillis.
-[[notebook paper](/files/pubs/track-2019.pdf), [poster](/files/pubs/track_2019_poster.pdf), [code](https://github.com/wangcongcong123/UCDTrecIS2019)]
+**Congcong Wang**, David Lillis. *Classification for Crisis-Related Tweets Leveraging
+Word Embeddings and Data Augmentation*. In Proceedings of the Twenty-Eighth Text REtrieval Conference (TREC 2019), Gaithersburg, MD, 2020.
+
+[[notebook paper](/files/pubs/track-2019.pdf), [poster](https://trec.nist.gov/pubs/trec28/papers/CS-UCD.IS.pdf), [code](https://github.com/wangcongcong123/UCDTrecIS2019)]
 
 <!-- Publications to add -->
 
