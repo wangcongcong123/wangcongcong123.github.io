@@ -19,7 +19,7 @@ html {
 
 body {
 	background: $white;
-  font: 16px/1.4 $helvetica;
+  font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
 
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 30px;
   a {
     color: inherit;
   }
@@ -280,9 +280,6 @@ nav {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
-  position: fixed;
-  left: 0;
-  bottom: 0;
   width: 100%;
 }
 
@@ -291,13 +288,6 @@ footer {
   text-align: center;
 }
 
-button a{
-  color: $white;
-}
-button a:hover{
-  color: $white;
-  text-decoration: none;
-}
 
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

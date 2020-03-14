@@ -1,0 +1,28 @@
+body {
+  font-size: 1.0em;
+}
+
+.wrapper-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+button a{
+  color: #fff;
+}
+
+button a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+.posts a:hover{
+  text-decoration: none;
+}
+
