@@ -8,7 +8,7 @@ This post guides you to write a python script that is able to monitor the open-a
 <object id="workflow" data="{{ site.baseurl }}/images/feeder-bot-arxiv-twitter/feeder-bot-arxiv-twitter.svg" type="image/svg+xml">
 </object>
 
-Basically, Feeder-bot listens to a RSS feed provider (arXiv in this example) through its API ([arXiv API](https://arxiv.org/help/api) in this example) and forward and post any identified updates to the receiver (Twitter in this example) via its API ([Twitter API](https://developer.twitter.com/en/docs)]).
+Basically, Feeder-bot listens to a RSS feed provider (arXiv in this example) through its API ([arXiv API](https://arxiv.org/help/api) in this example) and forward and post any identified updates to the receiver (Twitter in this example) via its API ([Twitter API](https://developer.twitter.com/en/docs)).
 
 For the code details, refer to [the repository](https://github.com/wangcongcong123/Feeder-bot). For how I built this tool, follow the rest of this blog.
 
@@ -18,7 +18,7 @@ For the code details, refer to [the repository](https://github.com/wangcongcong1
 Below are the major motivations for me writing this tool.
 
 - I recently rent a VPS from [Vultr](https://www.vultr.com/). I want to try something interesting on it. Hence, Feeder-bot become one of many.
-- I am studying some open source projects these days such as [Transformers](https://github.com/huggingface/transformers), [AllenNLP](https://github.com/allenai/allennlp), [Flair](https://github.com/flairNLP/flair), etc. These are popular open source repositories in NLP. In addition, I spent some time learning Docker that is used to employ a project easily. Moviated, I want try something to practice the open source skills I learnt from there. Hence, I chose Feeder-bot.
+- I am studying some open source projects these days such as [Transformers](https://github.com/huggingface/transformers), [AllenNLP](https://github.com/allenai/allennlp), [Flair](https://github.com/flairNLP/flair), etc. These are popular open source repositories in NLP. In addition, I spent some time learning Docker that is used to employ a project easily. Moviated, I want try something to practice the open source skills I learnt from there. Hence, I decided to write Feeder-bot.
 - I usually look around on Twitter for knowing paper updates in relation to my research field, namely, NLP stuff. I does not use arXiv derivatives such as [arXiv-sanity](https://www.arxiv-sanity.com/) (that is actually a pretty nice work by [Andrej Karpathy](https://twitter.com/karpathy)) for this purpose due to the network effect and mobile friendliness of Twitter. Considering this, it would be great if I can post paper updates from arXiv on Twitter without going to arXiv. In this sense, Twitter acts as a repository of storing relevant papers like arXiv-sanity without the bother of switching between platforms. Hence, I proposed Feeder-bot that is a bot saving me from posting it manually.
 - The aformentioned basically says I got some needs from the context where I am in. The needs first prompted me to search online checking if there is any relevant work that have done and well suits my needs. It turned out to be no ones there. Hence, it subsequently prompted me to build it from scratch.
 
@@ -124,7 +124,7 @@ optional arguments:
 In conclusion, Feeder-bot helps you listen to updates from arXiv and automatically forward them to Twitter if updates found. You just need to specify the some arugments such as arxiv_query, hashtags_prepend to run the bot !
 Please go to [the code repository](https://github.com/wangcongcong123/Feeder-bot), where code is provided.
 
-I had no any idea of how to implement it in the beginning. Later on, I researched and completed this small program quickly. What I learnt from this experience is that one can build up a good stuff efficiently as long as he/she has solid basics of programming/knowledge and that stuff is what he/she really need. The solid basics help him/her fix bugs quickly and thus reduce the pain in the process. That is what he/she need makes you passionate about it and thus a final release is possible. 
+I had no any idea of how to implement it in the beginning. Later on, I researched and completed this small program quickly. What I learnt from this experience is that one can build up a good stuff efficiently as long as he/she has solid basics of programming/knowledge and that stuff is what he/she really needs. The solid basics help him/her fix bugs quickly and thus reduce the pain in the process. That is what he/she needs makes him/her passionate about it and thus a final release is possible. 
 <!-- What motivated me to write this blog is not the bot itself, but the high-level consistent patterns of completing things likewise. -->
 
 If you have any thoughts you'd like share with me about the blog, send me an email via [wangcongcongcc@gmail.com](mailto:wangcongcongcc@gmail.com) or you are welcome to talk with me on [my Twitter](https://twitter.com/WangcongcongCC).
