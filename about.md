@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am a PhD candidate in the [School of Computer Science](https://www.cs.ucd.ie/), [UCD](https://www.ucd.ie/), under the supervision of [Dr. David Lillis](https://lill.is/). My PhD research focuses on NLP for emergency response. Currently, I am a fan of [AI2](https://allenai.org/) and [HuggingFace](https://huggingface.co/).
+I am a PhD candidate in the [School of Computer Science](https://www.cs.ucd.ie/), [UCD](https://www.ucd.ie/), under the supervision of [Dr. David Lillis](https://lill.is/). My PhD research focuses on NLP for emergency response. Aside from my research, I am also an avid open sourcer. Currently, I am a fan of [AI2](https://allenai.org/) and [HuggingFace](https://huggingface.co/).
 
 
 ### More Information

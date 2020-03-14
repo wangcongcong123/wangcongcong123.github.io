@@ -9,6 +9,17 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
+<!-- CDN LINKS -->
+<!--     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" />
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script> -->
+
+<!-- local links -->
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/static/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/static/bootstrap.min.js" />
+    <script src="{{ site.baseurl }}/static/jquery-3.4.1.min.js"></script>
+
+
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
@@ -30,6 +41,7 @@
             <a href="{{ site.baseurl }}/">Blog</a>
             <a href="{{ site.baseurl }}/projects">Projects</a>
             <a href="{{ site.baseurl }}/publications">Publications</a>
+            <a href="{{ site.baseurl }}/tools">Tools</a>
             <a href="{{ site.baseurl }}/about">About</a>
           </nav>
         </header>
@@ -40,6 +52,8 @@
       {{ content }}
     </div>
 
+    <div style="margin-top: 150px"></div>
+
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
@@ -47,6 +61,8 @@
         </footer>
       </div>
     </div>
+
+
 
     {% include analytics.html %}
   </body>

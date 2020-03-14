@@ -19,7 +19,7 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
+  font: 16px/1.4 $helvetica;
   color: $darkGray;
 }
 
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 24px;
   a {
     color: inherit;
   }
@@ -246,6 +246,10 @@ nav {
   border-bottom: 1px solid $lightGray;
 }
 
+.posts a:hover{
+  text-decoration: none;
+}
+
 .posts > .post:last-child {
   padding-bottom: 1em;
   border-bottom: none;
@@ -276,12 +280,25 @@ nav {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 footer {
   padding: 20px 0;
   text-align: center;
 }
+
+button a{
+  color: $white;
+}
+button a:hover{
+  color: $white;
+  text-decoration: none;
+}
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start

@@ -17,3 +17,9 @@ Please go to [the code repository](https://github.com/wangcongcong123/AllenNLPon
 
 If you have any doubts or any my mistakes you found in the blog, send me an email via [wangcongcongcc@gmail.com](mailto:wangcongcongcc@gmail.com) or you are welcome to talk with me about any NLP relevant questions through [my Twitter account](https://twitter.com/WangcongcongCC).
 
+<div class="form-group">
+  <label for="comment">Comment:</label>
+  <textarea class="form-control" rows="5" id="comment"></textarea>
+</div>
+
+<button type="button" class="btn btn-primary btn-sm">Submit</button>
