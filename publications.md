@@ -5,9 +5,9 @@ permalink: /publications/
 ---
 
 **Congcong Wang**, David Lillis. *Classification for Crisis-Related Tweets Leveraging
-Word Embeddings and Data Augmentation*. In Proceedings of the Twenty-Eighth Text REtrieval Conference (TREC 2019), Gaithersburg, MD, 2020. <button type="button" class="btn btn-success btn-sm">[PDF](/files/pubs/track-2019.pdf)</button>
+Word Embeddings and Data Augmentation*. In Proceedings of the Twenty-Eighth Text REtrieval Conference (TREC 2019), Gaithersburg, MD, 2020. <button type="button" class="btn btn-success btn-sm">[PDF](https://trec.nist.gov/pubs/trec28/papers/CS-UCD.IS.pdf)</button>
 <button type="button" class="btn btn-secondary btn-sm">[BibTex](/bibs/congcong2020cls.txt)</button>
-<button type="button" class="btn btn-info btn-sm">[Poster](https://trec.nist.gov/pubs/trec28/papers/CS-UCD.IS.pdf)</button>
+<button type="button" class="btn btn-info btn-sm">[Poster](/files/pubs/track_2019_poster.pdf)</button>
 <button type="button" class="btn btn-primary btn-sm">[Code](https://github.com/wangcongcong123/UCDTrecIS2019)</button>
 
 <!-- Publications to add -->

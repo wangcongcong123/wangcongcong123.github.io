@@ -2,10 +2,9 @@
 layout: post
 title: biLSTM, BCN+ELMo and BERT for Text Classification on different datasets
 ---
+Text classification as an important task in natural lanugage understanding (NLP) has been widely studied over the last several decades. The task describes input as a document and output as the category of which the document belongs to. In literature, both supervised and unsupervised methods have been applied for text classification. 
 
-<!-- jeykll serve -->
-
-Text classification as an important task in natural lanugage understanding (NLP) has been widely studied over the last several decades. The task describes input as a document and output as the category of which the document belongs to. In literature, both supervised and unsupervised methods have been applied for text classification. This blog only sets its scope on supervised learning methods. More specifically, it only focues on deep learning supervised methods that have gained great success in recent years. For knowing about latest advances of unsupervised methods in text classification, here is a recommended recently-published paper ([Haj-Yahia, et al., 2019](https://www.aclweb.org/anthology/P19-1036.pdf)).
+This blog only sets its scope on supervised learning methods. More specifically, it only focues on deep learning supervised methods that have gained great success in recent years. For knowing about latest advances of unsupervised methods in text classification, here is a recommended recently-published paper ([Haj-Yahia, et al., 2019](https://www.aclweb.org/anthology/P19-1036.pdf)).
 
 <!-- In terms of supervised methods, Earlier, trandional machine learning techniques were mainstream for text classification. These methods normally work by extracting features that are perceived informative of 
  -->

@@ -17,10 +17,16 @@
 <!-- local links -->
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/static/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/static/bootstrap.min.js" />
-    <script src="{{ site.baseurl }}/static/jquery-3.4.1.min.js"></script>
+    <!-- <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/static/prism.js" /> -->
 
+    <script src="{{ site.baseurl }}/static/jquery-3.4.1.min.js"></script>
+    <!-- <script src="{{ site.baseurl }}/static/prism.js"></script> -->
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/static/main.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
@@ -38,7 +44,7 @@
             <p class="site-description">{{ site.description }}</p>
           </div>
 
-          <nav>
+          <nav style="font:bold;">
             <a href="{{ site.baseurl }}/">Blog</a>
             <a href="{{ site.baseurl }}/projects">Projects</a>
             <a href="{{ site.baseurl }}/publications">Publications</a>
