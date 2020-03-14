@@ -5,7 +5,7 @@ permalink: /tools/
 ---
 
 
-**Feeder-Bot**: a tool for automating updates of RSS feeds to your platform (receiver). <button type="button" class="btn btn-primary btn-sm">[Code](https://github.com/wangcongcong123/feeder-bot)</button>
+**Feeder-Bot**: a tool for automating updates of RSS feeds to your platform (receiver). <button type="button" class="btn btn-success btn-sm">[Blog](https://wangcongcong123.github.io./How-to-listen-to-arXiv-based-on-keywords-and-post-identified-updates-to-Twitter/)</button> <button type="button" class="btn btn-primary btn-sm">[Code](https://github.com/wangcongcong123/feeder-bot)</button>
 
 <!-- <button type="button" class="btn btn-primary btn-sm">Code</button> -->
 
