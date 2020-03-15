@@ -38,7 +38,7 @@ In this activity, the children will learn about how chat bots work and how machi
 
 	The children actually do not know Chinese. The reason I think they know is because they answer my questions well. The secret is that they have the rulebook as reference, namely, they follow the written rules to answer my questions very well. This is exactly the same way how machines like Siri understand human language. That's to say machine understands human language in the way by summarising such a rulebook. How do machines summarise the rulebook? Simply speaking, they learn from large amounts of human-written texts. They learn the grammar rules and patterns in human language statistifcally from the texts. However, the sad news is that the perfect rule book has never existed. Human lanague is so complicated and evolved over time. Our brain are so intelligent so that we always come up with new words, new phrases, or innovative ways of expressing something. This makes machine really difficult to catch up with the human's intelligence. One interesting example is such a sentence: `colorless green ideas sleep furiously`. This sentence makes perfect sense in terms of grammar, but it is nonsense regarding the semnatics. To understand this level of meaning, machine expects further intelligence.   
 
-	To put a vision on the future of machine in understanding human language, it is not that near to the postive outcome. Hence, much work ahead is needed.
+	To put a vision on the future of machine in understanding human language, it is not that near to the postive outcome, in my opinion. Hence, much work ahead is needed.
 
 
 Feedback is welcome!
