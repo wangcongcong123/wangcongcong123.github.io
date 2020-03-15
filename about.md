@@ -4,8 +4,9 @@ title:
 permalink: /about/
 ---
 
+
 <!-- ### Twitter Activity -->
-<div style="float: left;">
+<div style="float: right;">
 	<a class="twitter-timeline" data-lang="en" data-width="250" data-height="500" data-theme="light" href="https://twitter.com/WangcongcongCC?ref_src=twsrc%5Etfw">Tweets by WangcongcongCC</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 	<div style="margin-bottom: 100px"></div>
 </div>
@@ -25,3 +26,4 @@ Take it easy and simple, think and break. My interests include cooking, reading 
 ### Contact me
 
 [wangcongcongcc@gmail.com](mailto:wangcongcongcc@gmail.com)
+
