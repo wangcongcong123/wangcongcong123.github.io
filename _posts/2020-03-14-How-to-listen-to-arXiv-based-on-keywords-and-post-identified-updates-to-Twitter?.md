@@ -22,7 +22,15 @@ Below are the major motivations for me writing this tool.
 - I usually look around on Twitter for knowing paper updates in relation to my research field, namely, NLP stuff. I does not use arXiv derivatives such as [arXiv-sanity](https://www.arxiv-sanity.com/) (that is actually a pretty nice work by [Andrej Karpathy](https://twitter.com/karpathy)) for this purpose due to the network effect and mobile friendliness of Twitter. Considering this, it would be great if I can post paper updates from arXiv on Twitter without going to arXiv. In this sense, Twitter acts as a repository of storing relevant papers like arXiv-sanity without the bother of switching between platforms. Hence, I proposed Feeder-bot that is a bot saving me from posting it manually.
 - The aformentioned basically says I got some needs from the context where I am in. The needs first prompted me to search online checking if there is any relevant work that have done and well suits my needs. It turned out to be no ones there. Hence, it subsequently prompted me to build it from scratch.
 
-For whoever has the similar needs as me, I hope this tool is useful for you. Although the tool's name is Feeder-bot, the actual focus of this blog is on the arXiv2Twitter bot that works as a starting example (As in <a href="#workflow">the figure</a> illustrating this example) for expanding Feeder-bot to support more RSS feeds or receivers in the future. This open source tool welcomes everyone to join in and contribute to the future work.
+For whoever has the similar needs as me, I hope this tool is useful for you. Although the tool's name is Feeder-bot, the actual focus of this blog is on the arXiv2Twitter bot that works as a starting example (As in <a href="#workflow">the figure</a> illustrating this example) for expanding Feeder-bot to support more RSS feeds or receivers in the future. This open source tool welcomes everyone to join in and contribute to the future work. Below I provide some ideas that future work can go upon. 
+
+
+##### TODO Ideas
+
+- Expand keyword based query to semantic based query using NLP techniques.
+- Support more RSS feeds such as BBC News, Weather, etc.
+- Support more receivers such as inbox, website, etc.
+- Listen multiple feeds at the same time.
 
 #### Prerequisite
 
