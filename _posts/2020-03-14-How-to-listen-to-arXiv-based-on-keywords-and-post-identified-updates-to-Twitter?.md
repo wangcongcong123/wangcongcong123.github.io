@@ -87,7 +87,7 @@ At this stage, it is easy to write a script that monitors the latest paper on AR
 </code></pre>
 
 2.**Same as the above except that the update from arXiv is checked every 1800 seconds.**
-<pre><code class="language-python" style="background: #fff">python arxiv_twitter.py -q "bert+OR+nlp -r 1800"
+<pre><code class="language-python" style="background: #fff">python arxiv_twitter.py -q "bert+OR+nlp" -r 1800
 	</code></pre>
 
 
@@ -98,6 +98,12 @@ At this stage, it is easy to write a script that monitors the latest paper on AR
 4.**The papers containing the keywords both coronovirous and convid are tracked and post content is prepended with "#virus,#covid2019,#coronovirous".**
 <pre><code class="language-python" style="background: #fff">python arxiv_twitter.py -r 3600 -q "coronovirous+AND+convid" -d 10 -t "#virus,#covid2019,#coronovirous"
 	</code></pre>
+
+5.**The papers containing the keywords both crisis and classification are tracked and post content is prepended with "#crisisresponse,#NLP,#classification".**
+<pre><code class="language-python" style="background: #fff">python arxiv_twitter.py -r 3600 -q "crisis+AND+classification" -d 10 -t "#crisisresponse,#NLP,#classification"
+  </code></pre>
+
+
 
 Where `python arxiv_twitter.py -h`
 

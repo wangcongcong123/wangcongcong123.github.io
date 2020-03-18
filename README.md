@@ -20,5 +20,7 @@ This website is used for creating my personal blog posts on pogramming stuff, [A
 
 Next Open Source ideas
 	- customize 404 pages ! (done by someone else)
-
+Try 0001=3 that math puzzle with NN algorithms
+Listen to covid-2019 tweets and analyze them to tell an interesting story.
+Write a listener to report COVID-19 data on Twitter
 -->
