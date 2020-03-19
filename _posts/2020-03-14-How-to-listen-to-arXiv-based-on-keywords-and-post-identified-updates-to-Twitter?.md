@@ -96,7 +96,7 @@ At this stage, it is easy to write a script that monitors the latest paper on AR
 	</code></pre>
 
 4.**The papers containing the keywords both coronovirous and convid are tracked and post content is prepended with "#virus,#covid2019,#coronovirous".**
-<pre><code class="language-python" style="background: #fff">python arxiv_twitter.py -r 3600 -q "coronovirous+AND+convid" -d 10 -t "#virus,#covid2019,#coronovirous"
+<pre><code class="language-python" style="background: #fff">python arxiv_twitter.py -r 3600 -q "coronavirous+AND+convid" -d 10 -t "#virus,#covid2019,#coronavirous"
 	</code></pre>
 
 5.**The papers containing the keywords both crisis and classification are tracked and post content is prepended with "#crisisresponse,#NLP,#classification".**
