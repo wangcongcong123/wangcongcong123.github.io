@@ -5,7 +5,8 @@ permalink: /projects/
 ---
 
 
-Covid19-search: A retrieval system for searching covid-19 relevant papers built upon CORD19 dataset. Mar, 2020. <button type="button" class="btn btn-primary btn-sm">[Code](https://github.com/wangcongcong123/covidsearch)</button> <button type="button" class="btn btn-success btn-sm">[Live Demo](wangcongcong123.github.io./covidsearch)</button> 
+Covid19-search: A retrieval system for searching covid-19 relevant papers built upon CORD19 dataset. Mar, 2020. <button type="button" class="btn btn-primary btn-sm">[Code](https://github.com/wangcongcong123/MLP-TC)</button> <button type="button" class="btn btn-success btn-sm"><a href="{{ site.baseurl }}/covidsearch">Live Demo</a></button> 
+
 
 
 MLP-TC: Machine Learning Package for Text Classification. Dec, 2019. <button type="button" class="btn btn-primary btn-sm">[Code](https://github.com/wangcongcong123/MLP-TC)</button>
