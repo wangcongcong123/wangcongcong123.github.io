@@ -5,7 +5,7 @@ title: How to listen to arXiv based on keywords and post identified updates to T
 
 This post guides you to write a python script that is able to monitor the open-access repository of electronic preprints ([arXiv](https://arxiv.org/)) for automatic post on [Twitter](https://twitter.com/home), named Feeder-bot. Its workflow is illustrated as follows.
 
-<object id="workflow" data="{{ site.baseurl }}/images/feeder-bot-arxiv-twitter/feeder-bot-arxiv-twitter.svg" type="image/svg+xml">
+<object id="workflow" style="width: 100%" data="{{ site.baseurl }}/images/feeder-bot-arxiv-twitter/feeder-bot-arxiv-twitter.svg" type="image/svg+xml">
 </object>
 
 Basically, Feeder-bot listens to a RSS feed provider (arXiv in this example) through its API ([arXiv API](https://arxiv.org/help/api) in this example) and forward and post any identified updates to the receiver (Twitter in this example) via its API ([Twitter API](https://developer.twitter.com/en/docs)).
