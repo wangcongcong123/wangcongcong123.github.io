@@ -138,7 +138,7 @@ optional arguments:
 In conclusion, Feeder-bot helps you listen to updates from arXiv and automatically forward them to Twitter if updates found. You just need to specify the some arugments such as arxiv_query, hashtags_prepend to run the bot !
 Please go to [the code repository](https://github.com/wangcongcong123/Feeder-bot), where code is provided.
 
-I had no any idea of how to implement it in the beginning. Later on, I researched and completed this small program quickly. What I learnt from this experience is that one can build up a good stuff efficiently as long as he/she has solid basics of programming/knowledge and that stuff is what he/she really needs. The solid basics help him/her fix bugs quickly and thus reduce the pain in the process. That is what he/she needs makes him/her passionate about it and thus a final release is possible. 
+I had no any idea of how to implement it in the beginning. Later on, I researched and completed this small program quickly. What I learnt from this experience is that one can build up a good stuff efficiently as long as he/she has solid basics of programming/knowledge and that stuff is what he/she really needs. The solid basics help him/her fix bugs quickly and thus reduce the pain in the development process. That is what makes him/her passionate about and thus a final release is possible. 
 <!-- What motivated me to write this blog is not the bot itself, but the high-level consistent patterns of completing things likewise. -->
 
 If you have any thoughts you'd like to share with me about the blog, send me an email via [wangcongcongcc@gmail.com](mailto:wangcongcongcc@gmail.com) or you are welcome to talk with me on [my Twitter](https://twitter.com/WangcongcongCC).
