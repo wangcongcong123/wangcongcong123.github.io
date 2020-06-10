@@ -21,7 +21,7 @@ I am a PhD candidate in the [School of Computer Science](https://www.cs.ucd.ie/)
 
 ### More Information
 
-Take it easy and simple, think and break. My interests include cooking, reading and [non-fictional](https://github.com/wangcongcong123/wangcongcong123.github.io/tree/master/files/non-fictional) or [fictional writing](/files/Fictional_Writing.pdf). More about me go to my [résumé](/files/cv.pdf).
+Take it easy and simple, think and break. My interests include cooking, reading and [non-fictional](https://github.com/wangcongcong123/wangcongcong123.github.io/tree/master/files/non-fictional) or [fictional writing](/files/Fictional_Writing.pdf). More about me go to my [résumé](/files/congcong_cv.pdf).
 
 ### Contact me
 
