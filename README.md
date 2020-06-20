@@ -23,4 +23,5 @@ Next Open Source ideas
 Try 0001=3 that math puzzle with NN algorithms
 Listen to covid-2019 tweets and analyze them to tell an interesting story.
 Write a listener to report COVID-19 data on Twitter
+all kinds of lanaguage tasks review using my blog data
 -->

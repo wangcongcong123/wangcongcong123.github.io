@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to listen to arXiv based on keywords and post identified updates to Twitter?
+title: FeederBot - Feeding the latest arXiv papers to Twitter
 ---
 
 This post guides you to write a python script that is able to monitor the open-access repository of electronic preprints ([arXiv](https://arxiv.org/)) for automatic post on [Twitter](https://twitter.com/home), named Feeder-bot. Its workflow is illustrated as follows.
