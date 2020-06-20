@@ -7,7 +7,7 @@ TL;DR. [This link](https://github.com/wangcongcong123/auto_coding) provides the 
 
 This blog introduces 🤖Autocoder - A basic and simple tool for code generation, built upon [the pre-trained gpt-2 variants](https://huggingface.co/transformers/) provided by HuggingFace's [🤗transformers](https://github.com/huggingface/transformers) library. Below presents the workflow of Autocoder at training and inference time.
 
-<object id="workflow" style="width: 100%;" data="{{ site.baseurl }}/images/Autocoder/workflow.svg" type="image/svg+xml">
+<object id="workflow" style="width: 100%;" data="{{ site.baseurl }}/images/autocoder/workflow.svg" type="image/svg+xml">
 </object> <div style="text-align: center;font-size: 12px" id="figure1">Figure 1. The workflow of Autocoder at training and inference time</div>
 
 This blog first gives an introduction to the project's background, and then reveals the details of how the dataset is prepared and the fine-tuning process is conducted in programming with Python.
@@ -19,7 +19,7 @@ Autocoder is designed for the code completion task (CCT) where a sequence of cod
 Based on the current progress of deep learning, the answer is yes but in a semi-automatic way. It is likely to train a deep model big enough to **memorize** or **summarize** rules or patterns of statistically commonly-used codes by the real programmers. For example, in [Figure 1](#figure1), the `factorial` code snippet is generated correctly basically because the model learns from the training codes that most programmers have written it in this way. However, for situations where the code required for generation is unusual such as changing `n` to another name, it is easy to fool the model to generate some unexpected codes. This reflects an important weakness of the trained model -  the lack of reasoning, which has raised much concern in the deep learning community over the last few years. For knowing about the concern, it is recommended to read [the book of why](https://www.goodreads.com/book/show/36204378-the-book-of-why) or the [Chinese Room Experiment](https://wangcongcong123.github.io/Chatbot). To gain a general sense of how far nowadays the deep models are from reasoning, the following graph from the GPT-3 paper ([Brown et al., 2020](https://arxiv.org/abs/2005.14165)) tells something. I annotated the gap indicating the difference between human's performance and machine's (a very big model with 178B params) performance in the Winogrande task ([Sakaguchi et al., 2019](https://leaderboard.allenai.org/winogrande/submissions/get-started)) in few-shot setting (making predictions with only few examples fed to train the model).
 
 <div style="text-align: center;">
-	<img src="/images/Autocoder/gpt3_winogrande.png">
+	<img src="/images/autocoder/gpt3_winogrande.png">
 </div>
 <div style="text-align: center;font-size: 12px" id="figure2">Figure 2. GPT-3 models evaluated on the <a href="https://huggingface.co/nlp/viewer/?dataset=winogrande&config=winogrande_xs">Winogrande dataset</a> that is a tough-for-machine language task requiring reasoning</div>
 
@@ -30,7 +30,7 @@ GPT is short for **Generative** **Pre-Training**, initially proposed by [OpenAI]
 
 
 <div style="text-align: center;">
-	<object id="workflow" style="width: 80%;" data="{{ site.baseurl }}/images/Autocoder/clm.svg" type="image/svg+xml"></object>
+	<object id="workflow" style="width: 80%;" data="{{ site.baseurl }}/images/autocoder/clm.svg" type="image/svg+xml"></object>
 </div>
 <div style="text-align: center;font-size: 12px" id="figure3">Figure 3. An illustration of casual language modeling (CLM)</div>
 
@@ -39,7 +39,7 @@ Briefly interpreting GPT from its name, **generative** indicates it is something
 The other part of GPT is **pre-training**. Pre-training is a very trendy term in transfer learning. What usually appears simultaneously with pre-training is **fine-tuning**. Basically, transfer learning says training a model beforehand on general dataset to learn some general features from the dataset (pre-training) and then transfers the learnt features to downstream specific tasks (fine-tuning). To gain a broad enough features, the dataset required for pre-training tends to be large scale and thus the pre-training is commonly conducted in an unsupervised way. In computer vision, the general dataset for pre-training usually refers to the large-score image dataset - ImageNet and the learnt features are some graphical knowledge such as contours, colors etc. The downstream tasks can be identifying specific objects in an image or adding texts to describe the image, etc. By comparison, in NLP, the large-scale dataset usually refers to the unlabeled internet texts such as Wikipedia, [Book Corpus](https://www.english-corpora.org/googlebooks/) or [Common Crawl](https://commoncrawl.org/), etc. For example, BERT ([Devlin et al., 2018](https://arxiv.org/abs/1810.04805)) is pre-trained on Wikipedia (2,500 million words) and Book Corpus (800 million words). The learnt features in this way of pre-training include some general linguistic knowledge such as syntax or semantics ([Rogers et al., 2020](https://arxiv.org/abs/2002.12327)) that can be used for language understanding in downstream tasks. For fine-tuning in NLP, the downstream tasks are just all kinds of language tasks, such as, sentence/document classification, sequence labelling, reading comprehension, etc. Figure 4 illustrates the perspective of transfer learning in NLP.
 
 <div style="text-align: center;">
-	<object id="workflow" style="width: 80%;" data="{{ site.baseurl }}/images/Autocoder/nlp_transfer_learning.svg" type="image/svg+xml"></object>
+	<object id="workflow" style="width: 80%;" data="{{ site.baseurl }}/images/autocoder/nlp_transfer_learning.svg" type="image/svg+xml"></object>
 </div>
 <div style="text-align: center;font-size: 12px" id="figure4">Figure 4. The perspective of transfer learning in NLP</div>
 
@@ -63,7 +63,7 @@ Next, we preprocess the dataset in the way as illustrated below.
 
 
 <div style="text-align: center;">
-	<object id="workflow" style="width: 80%;" data="{{ site.baseurl }}/images/Autocoder/dataset_slice.svg" type="image/svg+xml"></object>
+	<object id="workflow" style="width: 80%;" data="{{ site.baseurl }}/images/autocoder/dataset_slice.svg" type="image/svg+xml"></object>
 </div>
 <div style="text-align: center;font-size: 12px" id="figure5">Figure 5. Dataset building for Autocoder</div>
 
@@ -124,7 +124,7 @@ The 🤗transformers library contains the implementation of the GPT2 model with 
 Although there are different sized pre-trained variants such as distilgpt2, gpt2-large, gpt2-medium, etc., we select distilgpt2 and gpt2-medium for fine-tuning. Both are fine-tuned on two GPUs (12GB RTX 2080Ti and 8GB RTX 2070 Super) with around 24 hours for fine-tuning gpt2-medium (approx. 86k total steps ) and 8 hours for distilgpt2 (approx. 69k total steps). We use Adam as the optimiser and set the learning rate to be 5e-5 with warmup ratio 20% of the total training steps. During the fine-tuning, the best model saved is determined by perplexity evaluated on the development set with evaluation step of 200. For tracking the training process, we use the awesome [wandb tool](https://app.wandb.ai/) for recording the experimental details. [Here](https://app.wandb.ai/wangcongcong123/code_generate?workspace=user-wangcongcong123) logs the training details of fine-tuning distilgpt2 and gpt2-medium for Autocoder. Below plots the state of development loss during fine-tuning from wandb.
 
 <div style="text-align: center;">
-	<object id="workflow" style="width: 80%;" data="{{ site.baseurl }}/images/Autocoder/dev_loss.svg" type="image/svg+xml"></object>
+	<object id="workflow" style="width: 80%;" data="{{ site.baseurl }}/images/autocoder/dev_loss.svg" type="image/svg+xml"></object>
 </div>
 <div style="text-align: center;font-size: 12px" id="figure6">Figure 6. Development loss during fine-tuning</div>
 
