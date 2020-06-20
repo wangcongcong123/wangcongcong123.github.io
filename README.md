@@ -6,8 +6,9 @@ This website is used for creating my personal blog posts on pogramming stuff, [A
 ## Previous selected blog posts
 
 #### Year: 2020
+   - [Autocoder - Finetuning GPT-2 for Auto Code Completion](https://wangcongcong123.github.io/AutoCoder/)
    - [Covid19Search - A system for querying COVID-19 literature](https://wangcongcong123.github.io./CovidSearch/)
-   - [How to listen to arXiv based on keywords and post identified updates to Twitter?](https://wangcongcong123.github.io./How-to-listen-to-arXiv-based-on-keywords-and-post-identified-updates-to-Twitter/)
+   - [FeederBot - Feeding the latest arXiv papers to Twitter](https://wangcongcong123.github.io./How-to-listen-to-arXiv-based-on-keywords-and-post-identified-updates-to-Twitter/)
 
 #### Year: 2019
   
