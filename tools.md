@@ -4,8 +4,10 @@ title: Tools
 permalink: /tools/
 ---
 
+**Feeder-Bot**: a tool for automating updates of RSS feeds to your platform (Twitter for example). <button type="button" class="btn btn-success btn-sm">[Blog](https://wangcongcong123.github.io/FeederBot/)</button> <button type="button" class="btn btn-primary btn-sm">[Code](https://github.com/wangcongcong123/feeder-bot)</button>
 
-**Feeder-Bot**: a tool for automating updates of RSS feeds to your platform (Twitter for example). <button type="button" class="btn btn-success btn-sm">[Blog](https://wangcongcong123.github.io./How-to-listen-to-arXiv-based-on-keywords-and-post-identified-updates-to-Twitter/)</button> <button type="button" class="btn btn-primary btn-sm">[Code](https://github.com/wangcongcong123/feeder-bot)</button>
+**Autocoder**: A basic and simple tool for code auto completion. <button type="button" class="btn btn-success btn-sm">[Blog](https://wangcongcong123.github.io/AutoCoder/)</button> <button type="button" class="btn btn-primary btn-sm">[Code](https://github.com/wangcongcong123/auto_coding)</button>
+
 
 <!-- <button type="button" class="btn btn-primary btn-sm">Code</button> -->
 
