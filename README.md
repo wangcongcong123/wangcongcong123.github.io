@@ -8,13 +8,13 @@ This website is used for creating my personal blog posts on pogramming stuff, [A
 #### Year: 2020
    - [Autocoder - Finetuning GPT-2 for Auto Code Completion](https://wangcongcong123.github.io/AutoCoder/)
    - [Covid19Search - A system for querying COVID-19 literature](https://wangcongcong123.github.io./CovidSearch/)
-   - [FeederBot - Feeding the latest arXiv papers to Twitter](https://wangcongcong123.github.io./How-to-listen-to-arXiv-based-on-keywords-and-post-identified-updates-to-Twitter/)
+   - [FeederBot - Feeding the latest arXiv papers to Twitter](https://wangcongcong123.github.io/FeederBot/)
 
 #### Year: 2019
   
-  - [Chatbot Explained - The Chinese Room Thought Experiment](https://wangcongcong123.github.io./The-Chinese-Room-Experiment/)
-  - [BiLSTM BCN+ELMo and BERT for Text Classification on three datasets](https://wangcongcong123.github.io./BiLSTM-BCN+ELMo-and-Bert-for-Text-Classification-on-three-datasets/)
-  - [Run AllenNLP on Windows](https://wangcongcong123.github.io./Run-AllenNLP-on-Windows/) 
+  - [Chatbot Explained - The Chinese Room Thought Experiment](https://wangcongcong123.github.io/Chatbot/)
+  - [Expermenting Deep Models for Text Classification](https://wangcongcong123.github.io/Classification/)
+  - [Run AllenNLP on Windows](https://wangcongcong123.github.io/AllenNLP/) 
 
   
 <!-- 
