@@ -1,0 +1,8 @@
+@misc{wang2020ucdcs,
+      title={UCD-CS at W-NUT 2020 Shared Task-3: A Text to Text Approach for COVID-19 Event Extraction on Social Media}, 
+      author={Congcong Wang and David Lillis},
+      year={2020},
+      eprint={2009.10047},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
