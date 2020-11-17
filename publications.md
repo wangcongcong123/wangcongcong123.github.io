@@ -6,7 +6,7 @@ permalink: /publications/
 [Google Scholar](https://scholar.google.com/citations?user=OR4d1YQAAAAJ&hl=en)
 
 
-**Congcong Wang**, and David Lillis. *UCD-CS at W-NUT 2020 Shared Task-3: A Text to Text Approach for COVID-19 Event Extraction on Social Media*. In Proceedings of the 2020 EMNLP Workshop W-NUT: The 6th Workshop on Noisy User-generated Text, November 19, 2020. <button type="button" class="btn btn-success btn-sm">[PDF](https://arxiv.org/abs/2009.10047)</button>
+**Congcong Wang**, and David Lillis. *UCD-CS at W-NUT 2020 Shared Task-3: A Text to Text Approach for COVID-19 Event Extraction on Social Media*. In Proceedings of the 2020 EMNLP Workshop W-NUT: The 6th Workshop on Noisy User-generated Text, November 19, 2020. <button type="button" class="btn btn-success btn-sm">[PDF](https://www.aclweb.org/anthology/2020.wnut-1.78/)</button>
 <button type="button" class="btn btn-secondary btn-sm">[BibTex](/bibs/congcong2020wnut.txt)</button>
 <button type="button" class="btn btn-primary btn-sm">[Code](https://github.com/wangcongcong123/ttt/tree/master/covid_event)</button>
 
